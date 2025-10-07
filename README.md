@@ -28,7 +28,5 @@ MulAD/
 │   ├── gnn.py           # Simplified GNN model
 │   └── rf_trainer.py    # Random Forest ensemble
 ├── utils.py             # General utility functions
-└── data/
-    └── sample_logs.txt  # Sample logs (automatically generated when running pipeline)
 ```
 
