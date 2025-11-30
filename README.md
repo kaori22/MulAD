@@ -69,7 +69,7 @@ You can fine-tune the model performance and behavior by modifying the parameters
    - `alpha` (Default: 3): The minimum number of overlapping values required to identify two parameters as aliases. Increase this for stricter matching.  
    - `beta` (Default: 10): The minimum string length for a value to be considered valid for alias analysis. Increase this to filter out short, trivial tokens.  
 
-   To modify, edit the `alias_merge` function definition in `MulAD_log_parser.py`.
+   To modify, edit the `alias_merge` function definition in `log_parser.py`.
 
 2. **Model Training (`pipeline.py`)**  
    These parameters control the deep learning model architecture and training process.  
@@ -79,6 +79,6 @@ You can fine-tune the model performance and behavior by modifying the parameters
    - `HIDDEN_DIM` (Default: 128): The size of the hidden layers in MABi-LSTM, Transformer, and GNN.  
    - `LR` (Default: 1e-3): Learning rate for the Adam optimizer.  
 
-   To modify, edit the global variables at the top of `MulAD_pipeline.py`.
+   To modify, edit the global variables at the top of `pipeline.py`.
 
 
